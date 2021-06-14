@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src -d dist",
-    "lint": "eslint ."
+    "build": "babel src -d dist"
   },
   "repository": {
     "type": "git",
@@ -20,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/Glazyrin34/ajs-lesson1-task2/issues"
   },
-  "homepage": "https://github.com/Glazyrin34/ajs-lesson1-task2#readme"
+  "homepage": "https://github.com/Glazyrin34/ajs-lesson1-task2#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.5",
+    "@babel/preset-env": "^7.14.5"
+  },
+  "dependencies": {
+    "core-js": "^3.14.0"
+  }
 }
